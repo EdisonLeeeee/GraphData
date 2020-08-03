@@ -19,10 +19,13 @@ Each ZIP file contains 3 files:
 
 ```python
 import numpy as np
-
+import zipfile
 # Your path to the dataset, here is `Cora` dataset
-base_path = "GraphData"
+base_path = "GraphData/datasets"
 
+with zipfile.ZipFile(f'{base_path}/cora.zip', 'r') as zipf:
+    zipf.extractall(f'{base_path}/')
+    
 with open(f"{base_path}/adj.pkl", 'rb') as f:
     adj = np.load(f, allow_pickle=True)
     
