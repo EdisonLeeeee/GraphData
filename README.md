@@ -1,5 +1,6 @@
 # GraphData
 
+
 ## Planetoid datasets: CORA, CiteSeer and PubMed
 
 citation network datasets in https://github.com/kimiyoung/planetoid
@@ -201,4 +202,55 @@ https://github.com/kimiyoung/planetoid
 }
 ```
 
+## Flickr and BlogCatalog
 
+BlogCatalog : It is a dataset of a blog community social network, which contains 5,196 users as nodes, 171,743 edges indicating the user interactions, and 8,189 attribute categories denoting the keywords of their blogs. Users could register their blogs into six different predefined classes, which are set as labels. 
+
+Flickr: It is a benchmark attributed social network dataset containing 7,575 nodes. Each node is a Flickr user and each attribute category is a tag related to the photos shared by users. There are 239,738 undirected edges in this network, which indicate the following relationships among users. The nine groups that users have joined are considered as target labels.
+
+```tex
+@inproceedings{LiHTL15,
+  author    = {Jundong Li and
+               Xia Hu and
+               Jiliang Tang and
+               Huan Liu},
+  editor    = {James Bailey and
+               Alistair Moffat and
+               Charu C. Aggarwal and
+               Maarten de Rijke and
+               Ravi Kumar and
+               Vanessa Murdock and
+               Timos K. Sellis and
+               Jeffrey Xu Yu},
+  title     = {Unsupervised Streaming Feature Selection in Social Media},
+  booktitle = {Proceedings of the 24th {ACM} International Conference on Information
+               and Knowledge Management, {CIKM} 2015, Melbourne, VIC, Australia,
+               October 19 - 23, 2015},
+  pages     = {1041--1050},
+  publisher = {{ACM}},
+  year      = {2015}
+}
+```
+
+both datasets are collected form
+
+https://github.com/xhuang31/LANE
+
+```tex
+@inproceedings{HuangLH17,
+  author    = {Xiao Huang and
+               Jundong Li and
+               Xia Hu},
+  editor    = {Maarten de Rijke and
+               Milad Shokouhi and
+               Andrew Tomkins and
+               Min Zhang},
+  title     = {Label Informed Attributed Network Embedding},
+  booktitle = {Proceedings of the Tenth {ACM} International Conference on Web Search
+               and Data Mining, {WSDM} 2017, Cambridge, United Kingdom, February
+               6-10, 2017},
+  pages     = {731--739},
+  publisher = {{ACM}},
+  year      = {2017}
+}
+```
