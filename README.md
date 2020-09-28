@@ -7,7 +7,7 @@ citation network datasets in https://github.com/kimiyoung/planetoid
 
 nodes are documents and edges are citation links. Label rate denotes the number of labeled nodes that are used for training divided by the total number of nodes in each dataset. 
 
-```tex
+```bibtex
 @article{SenNBGGE08,
   author    = {Prithviraj Sen and
                Galileo Namata and
@@ -28,7 +28,7 @@ nodes are documents and edges are citation links. Label rate denotes the number 
 
 Amazon Computers and Amazon Photo are segments of the Amazon co-purchase graph,where nodes represent goods, edges indicate that two goods are frequently bought together, node features are bag-of-words encoded product reviews, and class labels are given by the product category. 
 
-```tex
+```bibtex
 @inproceedings{McAuleyTSH15,
   author    = {Julian J. McAuley and
                Christopher Targett and
@@ -64,7 +64,7 @@ The above datasets are collected from
 
 https://github.com/shchur/gnn-benchmark
 
-```tex
+```bibtex
 @article{shchur2018pitfalls,
   title={Pitfalls of Graph Neural Network Evaluation},
   author={Shchur, Oleksandr and Mumme, Maximilian and Bojchevski, Aleksandar and G{\"u}nnemann, Stephan},
@@ -77,7 +77,7 @@ https://github.com/shchur/gnn-benchmark
 
 ## DBLP
 
-```tex
+```bibtex
 @inproceedings{PanWZZW16,
   author    = {Shirui Pan and
                Jia Wu and
@@ -97,7 +97,7 @@ https://github.com/shchur/gnn-benchmark
 
 ## CiteSeer_Full
 
-```tex
+```bibtex
 @inproceedings{GilesBL98,
   author    = {C. Lee Giles and
                Kurt D. Bollacker and
@@ -117,7 +117,7 @@ CORA_Full, citation network dataset, an extended version of CORA
 
 CORA-ML, extracted from the original data the entire network of CORA
 
-```tex
+```bibtex
 @article{McCallumNRS00,
   author    = {Andrew McCallum and
                Kamal Nigam and
@@ -138,7 +138,7 @@ The above datasets are collected from
 
 https://github.com/abojchevski/graph2gauss
 
-```tex
+```bibtex
 @inproceedings{bojchevski2018deep,
 title={Deep Gaussian Embedding of Graphs:  Unsupervised Inductive Learning via Ranking},
 author={Aleksandar Bojchevski and Stephan Günnemann},
@@ -154,7 +154,7 @@ url={https://openreview.net/forum?id=r1ZdKJ-0W},
 
 http://snap.stanford.edu/graphsage/
 
-```tex
+```bibtex
  @inproceedings{hamilton2017inductive,
      author = {Hamilton, William L. and Ying, Rex and Leskovec, Jure},
      title = {Inductive Representation Learning on Large Graphs},
@@ -167,7 +167,7 @@ http://snap.stanford.edu/graphsage/
 
 https://github.com/kimiyoung/planetoid
 
-```tex
+```bibtex
 @inproceedings{CarlsonBKSHM10,
   author    = {Andrew Carlson and
                Justin Betteridge and
@@ -184,7 +184,7 @@ https://github.com/kimiyoung/planetoid
   year      = {2010}
 ```
 
-```tex
+```bibtex
 @inproceedings{DBLP:conf/icml/YangCS16,
   author    = {Zhilin Yang and
                William W. Cohen and
@@ -208,7 +208,7 @@ BlogCatalog : It is a dataset of a blog community social network, which contains
 
 Flickr: It is a benchmark attributed social network dataset containing 7,575 nodes. Each node is a Flickr user and each attribute category is a tag related to the photos shared by users. There are 239,738 undirected edges in this network, which indicate the following relationships among users. The nine groups that users have joined are considered as target labels.
 
-```tex
+```bibtex
 @inproceedings{LiHTL15,
   author    = {Jundong Li and
                Xia Hu and
@@ -236,7 +236,7 @@ both datasets are collected form
 
 https://github.com/xhuang31/LANE
 
-```tex
+```bibtex
 @inproceedings{HuangLH17,
   author    = {Xiao Huang and
                Jundong Li and
