@@ -1,7 +1,6 @@
 # GraphData
-
-
-## Planetoid datasets: CORA, CiteSeer and PubMed
+## Single Graph
+### Planetoid datasets: CORA, CiteSeer and PubMed
 
 citation network datasets in https://github.com/kimiyoung/planetoid
 
@@ -24,7 +23,7 @@ nodes are documents and edges are citation links. Label rate denotes the number 
 }
 ```
 
-## Amazon Computers and Amazon Photo
+### Amazon Computers and Amazon Photo
 
 Amazon Computers and Amazon Photo are segments of the Amazon co-purchase graph,where nodes represent goods, edges indicate that two goods are frequently bought together, node features are bag-of-words encoded product reviews, and class labels are given by the product category. 
 
@@ -50,7 +49,7 @@ Amazon Computers and Amazon Photo are segments of the Amazon co-purchase graph,w
 
 
 
-## Coauthor CS and Coauthor Physics
+### Coauthor CS and Coauthor Physics
 
 Coauthor CS and Coauthor Physics are co-authorship graphs based on the Microsoft Academic Graph from the KDD Cup 2016 challenge. Here, nodes are authors, that are connected by an edge if they co-authored a paper; node features represent paper keywords for each author’s papers, and class labels indicate most active fields of study for each author.
 
@@ -75,7 +74,7 @@ https://github.com/shchur/gnn-benchmark
 
 ---
 
-## DBLP
+### DBLP
 
 ```bibtex
 @inproceedings{PanWZZW16,
@@ -95,7 +94,7 @@ https://github.com/shchur/gnn-benchmark
 }
 ```
 
-## CiteSeer_Full
+### CiteSeer_Full
 
 ```bibtex
 @inproceedings{GilesBL98,
@@ -111,7 +110,7 @@ https://github.com/shchur/gnn-benchmark
 }
 ```
 
-## CORA_Full and CORA-ML
+### CORA_Full and CORA-ML
 
 CORA_Full, citation network dataset, an extended version of CORA
 
@@ -150,7 +149,7 @@ url={https://openreview.net/forum?id=r1ZdKJ-0W},
 
 ---
 
-## Reddit
+### Reddit
 
 http://snap.stanford.edu/graphsage/
 
@@ -163,7 +162,7 @@ http://snap.stanford.edu/graphsage/
    }
 ```
 
-## NELL
+### NELL
 
 https://github.com/kimiyoung/planetoid
 
@@ -202,7 +201,7 @@ https://github.com/kimiyoung/planetoid
 }
 ```
 
-## Flickr and BlogCatalog
+### Flickr and BlogCatalog
 
 BlogCatalog : It is a dataset of a blog community social network, which contains 5,196 users as nodes, 171,743 edges indicating the user interactions, and 8,189 attribute categories denoting the keywords of their blogs. Users could register their blogs into six different predefined classes, which are set as labels. 
 
@@ -252,5 +251,57 @@ https://github.com/xhuang31/LANE
   pages     = {731--739},
   publisher = {{ACM}},
   year      = {2017}
+}
+```
+
+### KDD Cup 2020
++ KDDS1
+https://www.biendata.xyz/competition/kddcup_2020/data/
+
++ KDDS2
+https://www.biendata.xyz/competition/kddcup_2020_formal/data/
+
+### UAI2010
+Link: https://github.com/zhumeiqiBUPT/AM-GCN
+
+```bibtex
+@inproceedings{wang2018unified,
+  title={A Unified Weakly Supervised Framework for Community Detection and Semantic Matching},
+  author={Wang, Wenjun and Liu, Xiao and Jiao, Pengfei and Chen, Xue and Jin, Di},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={218--230},
+  year={2018},
+  organization={Springer}
+}
+```
+### ACM
+This network is extracted from ACM dataset where nodes represent papers and there is an edge between two papers if they have the same author. All the papers are divided into 3 classes (Database, Wireless Communication, DataMining). The features are the bag-of-words representa- tions of paper keywords.
+
+Link1: https://github.com/Jhy1993/HAN
+Cite: 
+```bibtex
+@article{han2019,
+title={Heterogeneous Graph Attention Network},
+author={Xiao, Wang and Houye, Ji and Chuan, Shi and  Bai, Wang and Peng, Cui and P. , Yu and Yanfang, Ye},
+journal={WWW},
+year={2019}
+}
+```
+Link2: https://github.com/zhumeiqiBUPT/AM-GCN
+Cite: 
+```bibtex
+@inproceedings{DBLP:conf/kdd/0017ZB0SP20,
+  author    = {Xiao Wang and
+               Meiqi Zhu and
+               Deyu Bo and
+               Peng Cui and
+               Chuan Shi and
+               Jian Pei},
+  title     = {{AM-GCN:} Adaptive Multi-channel Graph Convolutional Networks},
+  booktitle = {{KDD} '20: The 26th {ACM} {SIGKDD} Conference on Knowledge Discovery
+               and Data Mining, Virtual Event, CA, USA, August 23-27, 2020},
+  pages     = {1243--1253},
+  publisher = {{ACM}},
+  year      = {2020},
 }
 ```
