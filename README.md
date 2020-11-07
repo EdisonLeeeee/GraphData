@@ -1,4 +1,18 @@
 # GraphData
+- [GraphData](#graphdata)
+  - [Single Graph](#single-graph)
+    - [Planetoid datasets: CORA, CiteSeer and PubMed](#planetoid-datasets-cora-citeseer-and-pubmed)
+    - [Amazon Computers and Amazon Photo](#amazon-computers-and-amazon-photo)
+    - [Coauthor CS and Coauthor Physics](#coauthor-cs-and-coauthor-physics)
+    - [DBLP](#dblp)
+    - [CiteSeer_Full](#citeseer_full)
+    - [CORA_Full and CORA-ML](#cora_full-and-cora-ml)
+    - [Reddit](#reddit)
+    - [NELL](#nell)
+    - [Flickr and BlogCatalog](#flickr-and-blogcatalog)
+    - [KDD Cup 2020](#kdd-cup-2020)
+    - [UAI2010](#uai2010)
+    - [ACM](#acm)
 ## Single Graph
 ### Planetoid datasets: CORA, CiteSeer and PubMed
 
