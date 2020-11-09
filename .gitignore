@@ -130,3 +130,7 @@ dmypy.json
 
 # lager datasets
 reddit.npz
+KDDS1.npz
+KDDS2.npz
+
+*.ipynb
