@@ -297,6 +297,7 @@ https://www.biendata.xyz/competition/kddcup_2020/data/
 
 + KDDS2
 https://www.biendata.xyz/competition/kddcup_2020_formal/data/
+the label of the last 50,000 test nodes are released at https://github.com/THUDM/GIAAD
 
 ### UAI2010
 Link: https://github.com/zhumeiqiBUPT/AM-GCN
