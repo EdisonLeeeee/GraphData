@@ -129,8 +129,9 @@ dmypy.json
 .pyre/
 
 # lager datasets
-reddit.npz
+reddit*.npz
 KDDS1.npz
 KDDS2.npz
 reddit/
+MAG/
 *.ipynb
