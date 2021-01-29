@@ -1,5 +1,6 @@
 # GraphData
 - [GraphData](#graphdata)
+  - [Glance of graphs](#glance-of-graphs)
   - [Single Graph](#single-graph)
     - [Planetoid datasets: CORA, CiteSeer and PubMed](#planetoid-datasets-cora-citeseer-and-pubmed)
     - [Amazon Computers and Amazon Photo](#amazon-computers-and-amazon-photo)
@@ -8,11 +9,18 @@
     - [CiteSeer_Full](#citeseer_full)
     - [CORA_Full and CORA-ML](#cora_full-and-cora-ml)
     - [Reddit](#reddit)
+      - [Source-SNAP](#source-snap)
+      - [Source-DGL](#source-dgl)
+      - [Source-TUM](#source-tum)
     - [NELL](#nell)
     - [Flickr and BlogCatalog](#flickr-and-blogcatalog)
     - [KDD Cup 2020](#kdd-cup-2020)
     - [UAI2010](#uai2010)
     - [ACM](#acm)
+    - [MAG-Scholar](#mag-scholar)
+    - [Karateclub Datasets](#karateclub-datasets)
+      - [Node-level](#node-level)
+      - [Graph-level](#graph-level)
 
 ## Glance of graphs
 
@@ -187,8 +195,9 @@ url={https://openreview.net/forum?id=r1ZdKJ-0W},
 ---
 
 ### Reddit
-
-http://snap.stanford.edu/graphsage/
+233K nodes, 11.6M edges, 602 node features
+#### Source-SNAP
+Link: http://snap.stanford.edu/graphsage/
 
 ```bibtex
  @inproceedings{hamilton2017inductive,
@@ -198,6 +207,11 @@ http://snap.stanford.edu/graphsage/
      year = {2017}
    }
 ```
+#### Source-DGL
+Link: https://data.dgl.ai/dataset/reddit.zip
+
+#### Source-TUM
+Link: https://ndownloader.figshare.com/files/23742119
 
 ### NELL
 
@@ -341,5 +355,45 @@ Cite:
   pages     = {1243--1253},
   publisher = {{ACM}},
   year      = {2020},
+}
+```
+### MAG-Scholar
+a new benchmark dataset based on the Microsoft Academic Graph (MAG). Nodes represent papers, edges denote
+citations, and node features correspond to a bag-of-words representation of paper abstracts. The graph is augmented with "groundtruth" node labels corresponding to the papers’ field of study.
+
+Link: https://figshare.com/articles/dataset/mag_scholar/12696653
+Cite: 
+```bibtex
+@inproceedings{bojchevski2020pprgo,
+  title={Scaling Graph Neural Networks with Approximate PageRank},
+  author={Bojchevski, Aleksandar and Klicpera, Johannes and Perozzi, Bryan and Kapoor, Amol and Blais, Martin and R{\'o}zemberczki, Benedek and Lukasik, Michal and G{\"u}nnemann, Stephan},
+  booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  year={2020},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+}
+```
+### Karateclub Datasets
+Datasets from [Karateclub](https://github.com/benedekrozemberczki/karateclub)
+#### Node-level
++ deezer
++ facebook
++ github
++ lastfm
++ twitch
++ wikipedia
+  
+#### Graph-level
++ reddit10k
+
+Cite:
+```bibtex
+@inproceedings{karateclub,
+       title = {{Karate Club: An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs}},
+       author = {Benedek Rozemberczki and Oliver Kiss and Rik Sarkar},
+       year = {2020},
+       pages = {3125–3132},
+       booktitle = {Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM '20)},
+       organization = {ACM},
 }
 ```
