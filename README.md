@@ -397,3 +397,52 @@ Cite:
        organization = {ACM},
 }
 ```
+
+### FB15k
+FB15K_URL = "https://dl.fbaipublicfiles.com/starspace/fb15k.tgz"
+FILENAMES = [
+    "FB15k/freebase_mtr100_mte100-train.txt",
+    "FB15k/freebase_mtr100_mte100-valid.txt",
+    "FB15k/freebase_mtr100_mte100-test.txt",
+]
+
+### MUSAE
+Datasets from [MUSAE](https://github.com/benedekrozemberczki/MUSAE)
+╒═══════════╤═══════════════════════════════════════════════════════════════════╕
+│ Names     │ Description                                                           │
+╞═══════════╪═══════════════════════════════════════════════════════════════════╡
+│ chameleon │ Wiki-chameleon dataset (classification)                           │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ crocodile │ Wiki-crocodile dataset (classification)                           │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ squirrel  │ Wiki-squirrel dataset (node classification)                       │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ facebook  │ facebook dataset (classification)                                 │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ github    │ github dataset, the same as KarateClub('github') (classification) │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ DE        │ Twitch-DE dataset (classification, regression)                    │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ ENGB      │ Twitch-ENGB dataset (classification, regression)                  │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ ES        │ Twitch-ES dataset (classification, regression)                    │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ FR        │ Twitch-FR dataset (classification, regression)                    │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ PTBR      │ Twitch-PTBR dataset (classification, regression)                  │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ RU        │ Twitch-RU dataset (classification, regression)                    │
+├───────────┼───────────────────────────────────────────────────────────────────┤
+│ ZHTW      │ Twitch-ZHTW dataset (classification, regression)                  │
+╘═══════════╧═══════════════════════════════════════════════════════════════════╛
+Cite
+```bibtex
+@misc{rozemberczki2019multiscale,    
+       title = {{Multi-scale Attributed Node Embedding}},   
+       author = {Benedek Rozemberczki and Carl Allen and Rik Sarkar},   
+       year = {2019},   
+       eprint = {1909.13021},  
+       archivePrefix = {arXiv},  
+       primaryClass = {cs.LG}   
+       }
+```
