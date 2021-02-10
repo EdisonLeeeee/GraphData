@@ -446,3 +446,16 @@ Cite
        primaryClass = {cs.LG}   
        }
 ```
+
+### PDN
+Synthetic node classification dataset from PDN: https://github.com/benedekrozemberczki/PDN
+Cite
+```bibtex
+@inproceedings{rozemberczki2021pdn,    
+                title={{Pathfinder Discovery Networks for Neural Message Passing}},    
+                author={Benedek Rozemberczki and Peter Englert and Amol Kapoor and Martin Blais and Bryan Perozzi},    
+                booktitle = {Proceedings of The Web Conference 2021},
+                year={2021},    
+                organization={ACM}    
+                }
+```
