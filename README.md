@@ -73,7 +73,7 @@ e.g., run load_npz('cora') and it returns a dict instance `loader`, it might hav
 ## Single Graph
 ### Planetoid datasets: CORA, CiteSeer, PubMed and Nelll
 
-citation network datasets in https://github.com/kimiyoung/planetoid
+citation network and knowledge graph(NELL) datasets in https://github.com/kimiyoung/planetoid
 
 nodes are documents and edges are citation links. Label rate denotes the number of labeled nodes that are used for training divided by the total number of nodes in each dataset. 
 
