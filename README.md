@@ -71,7 +71,7 @@ e.g., run load_npz('cora') and it returns a dict instance `loader`, it might hav
 |coauthor_phy|34,493|247,962|8,415|0.0208%|0|
 
 ## Single Graph
-### Planetoid datasets: CORA, CiteSeer and PubMed
+### Planetoid datasets: CORA, CiteSeer, PubMed and Nelll
 
 citation network datasets in https://github.com/kimiyoung/planetoid
 
