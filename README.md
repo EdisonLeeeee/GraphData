@@ -50,7 +50,7 @@ e.g., run load_npz('cora') and it returns a dict instance `loader`, it might hav
 
 ## Glance of graphs
 
-|name|num_nodes|num_edges|num_attrs|num_graphs|is_directed|
+|name|num_nodes|num_edges|num_attrs|density|is_directed|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |karate_club|34|78|0|6.7474%|0|
 |polblogs|1,490|19,025|0|0.8569%|1|
